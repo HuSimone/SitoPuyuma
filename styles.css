@@ -1,0 +1,122 @@
+ :root {
+     --color-black: #000000;
+     --color-dimgrey: #6D6466;
+     --color-darkred: #8D0106;
+     --color-teagreen: #C9D5B5;
+     --color-timberwolf: #E3DBDB;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+ }
+
+ body {
+     font-family: sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: var(--color-dimgrey);
+     
+     color: var(--color-timberwolf);
+     font-family: "Rubik", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 500;
+ }
+
+ /*#region header*/
+ header {
+     width: 100%;
+     background-color: var(--color-black);
+     padding: 20px;
+     position: fixed;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+#haeder-logo{
+    max-width: 150px;
+}
+ #nav-list {
+     list-style: none;
+     margin-right: 20px;
+ }
+
+ #nav-list li {
+     display: inline;
+     margin-right: 20px;
+ }
+
+ #nav-list a {
+     text-decoration: none;
+     color: var(--color-timberwolf);
+ }
+ /*#endregion header*/
+
+
+ section {
+     text-align: center;
+ }
+
+.flex-div{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-wrap:wrap;
+     gap: 5px;
+}
+ /*#region home*/
+ #home {
+     padding-top: 200px;
+     background-color: var(--color-black);
+ }
+ #home img{
+    max-width: 500px;
+ }
+ /*#endregion home*/
+
+ /*#region menu*/
+ #menu {
+     padding-top: 3rem;
+     padding-bottom: 3rem;
+ }
+
+ #qrcode-container {
+    display: grid;
+    max-width: 800px;
+    margin-inline: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+ }
+.qrcode{
+    max-width: 200px;
+}
+
+ /*#endregion menu*/
+
+ /*#region prenotazioni*/
+ #prenotazioni {
+     padding: 100px;
+     background-color: var(--color-black);
+ }
+ #prenotazioni img{
+    max-width: 350px;
+    border-radius: 50%;
+ }
+ .cellNumber {
+     color: var(--color-darkred);
+     font-size: 1.2rem;
+ }
+
+ /*#endregion prenotazioni*/
+
+ /*#region contatti*/
+ #info-container ul{
+    list-style: none;
+ }
+ #googlemap{
+    max-width: 100%;
+ }
+ /*#endregion contatti*/
+ #footer {
+     background-color: var(--color-black);
+     text-align: center;
+     padding: 20px;
+ }

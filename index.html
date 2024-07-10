@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristorante Puyuma</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#home"><img id="haeder-logo" src="Images/Puyuma Logo.png" alt="Puyuma logo"></a>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#prenotazioni">Prenotazioni</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section id="home" class="flex-div">
+            <div id="home-text-container">
+                <h2>Benvenuti a Puyuma</h2>
+                <p>Ristorante asian fusion</p>
+            </div>
+            <div id="home-img-container">
+                <img id="home-img" src="/Images/Puyuma_01.jpg" alt="home resturant image"/>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2>Menu</h2>
+            <p>scansiona i codici qr per visualizzare i nostri menu</p>
+
+            <div id="qrcode-container" >
+                <img class="qrcode" src="/Images/Puyuma_Qr_asporto.jpg" alt="asporto menu image"/>
+                <img class="qrcode" src="/Images/Puyuma_Qr_pranzo.jpg" alt="pranzo menu image"/>
+                <img class="qrcode" src="/Images/Puyuma_Qr_cena.jpg" alt="cena menu image"/>
+            </div>
+        </section>
+
+        <section id="prenotazioni" class="flex-div">
+            <img src="https://static.vecteezy.com/ti/vettori-gratis/p1/6687545-persone-con-telefono-l-uomo-sta-parlando-al-telefono-immagine-vettoriale.jpg" alt="uomo al telefono"/>
+            <div>
+                <h2>Prenotazioni</h2>
+            <p >per effettuare una prenotazione, chiamaci direttamente al numero</p>
+            <p class="cellNumber">+39 051 435566</p>
+            </div>
+            
+        </section>
+
+        <section id="contatti" class="flex-div">
+            <div id="info-container">
+                <h1>Contatti</h1>
+                <p class="contact-info">Via don Luigi Sturzo, 
+                <p class="contact-info">Tel: <span class="cellNumber">051 43556</span></p>
+                <p class="contact-info">email: simonehaoyunsrls@gmail.com</p>
+                <ul>
+                    <li>Lun: chiuso</li>
+                    <li>Martedì: chiuso</li>
+                    <li>Mercoledì: chiuso</li>
+                    <li>Giovedì: chiuso</li>
+                    <li>Venrdì: chiuso</li>
+                    <li>Sabato: chiuso</li>
+                    <li>Domenica: chiuso</li>
+                </ul>
+            </div>
+            <div id="maps-container">
+                <iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2846.3238134930066!2d11.292657576867974!3d44.48803137107484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd447bafcc4f3%3A0x7f6bb9943eb88673!2sRistorante%20Puyuma!5e0!3m2!1sit!2sit!4v1720568747024!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 2024 Puyuma</p>
+    </footer>
+</body>
+
+</html>
